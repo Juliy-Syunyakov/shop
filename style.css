@@ -73,6 +73,7 @@ main{
     padding: 10px 20px 10px 20px;
     font-size: 17px;
     border: none;
+    cursor:pointer
 }
 .h22{
     text-align: center;
@@ -102,6 +103,7 @@ main{
     margin-top: 20px;
     margin-right: 1%;
     width: 24%;
+    border: 2px solid white;
 }
 .flexovich{
     display: flex;
@@ -125,6 +127,61 @@ a{
     text-decoration: none;
     color: white;
    
+}
+.rightpriem{
+    width: 49%;
+    
+}
+.rightpriem{
+    max-width: 50%;
+}
+.leftpriem{
+    width: 50%;
+    position: relative;
+}
+.priem{
+    margin-top: 100px;
+    
+}
+.keo{
+    border: 2px solid white;
+    padding: 50px;
+
+}
+.cd2b{
+    background: white;
+    position: absolute;
+    bottom: 0;
+  
+}
+.ppr{
+    font-size: 19px;
+}
+.what1{
+    font-size: 20px;
+    margin-top: 15px;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+}
+
+.otziv{
+    text-align: center;
+    width: 32%;
+    padding: 15px;
+    border: 2px solid white;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+.popular{
+    margin-top: 80px;
+
+}
+
+.primer{
+    width: 40%;
+}
+.otzvs{
+    margin-top: 80px;
 }
 @media(min-width:768px){
     .row{
