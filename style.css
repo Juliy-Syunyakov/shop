@@ -2,7 +2,7 @@ img{
     max-width: 100%;
 }
 p, h2, h3{
-    color: white  !important; 
+    color: white ; 
 }
 *{
     box-sizing: border-box;
@@ -47,9 +47,7 @@ p, h2, h3{
 .logo{
     width: 20%;
 }
-.g{
-    padding-top: 10px;
-}
+
 header{
     border-bottom: 2px solid white;
     width: 100%;
@@ -58,7 +56,7 @@ main{
     background-image: url(img/b1.jpg);
     text-align: center;
 }
-.cd1{
+.centraldiv{
     background: rgba(0, 0, 0, 0.904);
     width: 50%;
     text-align: center;
@@ -67,7 +65,7 @@ main{
     margin-top: 15%;
     margin-bottom: 15%;
 }
-.cd1b{
+.centraldivbut{
     background: white;
     color: black;
     padding: 10px 20px 10px 20px;
@@ -81,29 +79,31 @@ main{
     padding-bottom: 10px;
     padding-top: 20px;
 }
-.downpr1{
+.downproducts{
     border-top: 2px solid black;
     background: white;
     padding: 5px;
 
 }
 .downpr1p1{
-    color: black !important;
+    color: black ;
     font-size: 17px;
     margin-bottom: 0px;
 
 }
 .downpr1p2{
-    color: black !important;
+    color: black ;
     text-align: right;
     font-size: 17px;
 
 }
-.products1{
+.products{
     margin-top: 20px;
     margin-right: 1%;
     width: 24%;
     border: 2px solid white;
+    display: block;
+    cursor: pointer;
 }
 .flexovich{
     display: flex;
@@ -116,7 +116,7 @@ span{
 }
 .g{
     display: flex;
-    padding-top: 35px;
+    padding-top: 30px;
 
 }
 .menuspans{
@@ -143,21 +143,21 @@ a{
     margin-top: 100px;
     
 }
-.keo{
+.priemus{
     border: 2px solid white;
     padding: 50px;
 
 }
-.cd2b{
+.centraldiv2but{
     background: white;
     position: absolute;
     bottom: 0;
   
 }
-.ppr{
+.ppriem{
     font-size: 19px;
 }
-.what1{
+.otzivtext{
     font-size: 20px;
     margin-top: 15px;
     letter-spacing: 0.1em;
@@ -177,7 +177,7 @@ a{
 
 }
 
-.primer{
+.otzivlogo{
     width: 40%;
 }
 .otzvs{
@@ -205,9 +205,11 @@ footer{
 }
 .pfoot{
     font-size: 19px;
+    display: block;
+    padding: 10px;
 
 }
-.footogo{
+.footlogo{
     width: 25%;
 }
 .secpfoot{
@@ -216,9 +218,16 @@ footer{
 .ps{
     line-height: 51.5px;
 }
-.cd1b{
-    font-size: 18px;
-    
+
+.pfootlogo{
+    font-size: 19px;
+    display: block;
+
+}
+.dann{
+    display: block;
+    padding: 10px;
+  font-size: 18px;
 }
 @media(min-width:768px){
     .row{
