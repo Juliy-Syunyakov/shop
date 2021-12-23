@@ -16,12 +16,14 @@ p, h2, h3{
 
 
 .row{
-   
-   
     padding-right:15px;
     padding-left:15px;
     margin-right:auto;
     margin-left:auto;
+}
+body{
+    margin-top: 0px;
+
 }
 
 .menu, .menup{
@@ -228,6 +230,11 @@ footer{
     display: block;
     padding: 10px;
   font-size: 18px;
+}
+header{
+    position: fixed;
+    z-index: 1000;
+    background: black;
 }
 @media(min-width:768px){
     .row{
